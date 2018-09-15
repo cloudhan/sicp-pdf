@@ -1,10 +1,9 @@
 SICP
 ====
 
-<img src="http://sicpebook.files.wordpress.com/2013/09/dreamsmile3.png"
+<img src="dreamsmile3.png"
  alt="Par dreaming and smiling" align="right" />
 
-<b>Direct link: [sicp.pdf](https://github.com/sarabander/sicp-pdf/raw/master/sicp.pdf)</b>
 
 This is a PDF version of "Structure and Interpretation of Computer Programs" by Harold Abelson, Gerald Jay Sussman, and Julie Sussman. It is a further development of the [Unofficial Texinfo Format](http://www.neilvandyke.org/sicp-texi/) (UTF), which was originally derived from the [HTML version](http://mitpress.mit.edu/sicp/) at The MIT Press.
 
@@ -14,8 +13,14 @@ Biggest change in this revision (2.andresraba5) is the conversion to LaTeX, whic
 Source
 ------
 
-*For macOS Users:* The Inconsolata LGC and Linux Libertine fonts are not included in MacTex. You need to install them separately. Download the Inconsolata LGC fonts [here](https://github.com/MihailJP/Inconsolata-LGC/downloads) and the Linux Libertine fonts [here](http://sourceforge.net/projects/linuxlibertine/files/linuxlibertine/5.3.0/LinLibertineOTF_5.3.0_2012_07_02.tgz/download). To install the fonts system-wide, move all the downloaded `.otf` files into the `/Library/Fonts` folder. After completing these tasks, continue with the instructions below.
+The following font are needed:
+- Inconsolata LGC
+- Libertinus font family (A fork of the Linux Libertine and Linux Biolinum fonts with bugfixes and an OpenType math companion.)
 
+### Prerequisites on Arch Linux
+Install `otf-alegreya`, `otf-inconsolata-lgc-git` and  `otf-libertinus-git` fonts from AUR
+
+### Build
 The `src` directory contains both Texinfo and LaTeX sources. To recompile the book, go there and enter:
 
 ```bash
@@ -26,7 +31,7 @@ The file `preamble.tex` contains all the configuration and style declarations. N
 
 Chances for successful compilation are increased if you have almost complete installation of recent TeX Live distribution (the pdf here is compiled with 2012 release). The needed OpenType fonts must be installed in the operating system. You also need Inkscape to recreate image PDFs from SVGs.
 
-If compilation stops with "LaTeX Error: Too many unprocessed floats.", you could try to increase the width and height of text area in [preamble](https://github.com/sarabander/sicp-pdf/blob/master/src/preamble.tex#L70-L71). Newer TeX Live or updated fonts could result in different character metrics, so that some figures no longer fit. The problem is reported in issue [#5](https://github.com/sarabander/sicp-pdf/issues/5).
+If compilation stops with "LaTeX Error: Too many unprocessed floats.", you could try to increase the width and height of text area in [preamble](./src/preamble.tex#L70-L71). Newer TeX Live or updated fonts could result in different character metrics, so that some figures no longer fit. The problem is reported in issue [#5](https://github.com/sarabander/sicp-pdf/issues/5).
 
 To clean up after the build:
 
@@ -63,12 +68,8 @@ The files `sicp.texi, sicp.pdf,` and diagrams in directory `src/fig` are license
           
 The script files `ex-fig-ref.pl, survey.rb,` and `texi-to-latex.pl` are licensed under GNU General Public License version 3 (for details, see src/LICENSE).
 
-Sister project
---------------
 
-A new [HTML5 version](https://github.com/sarabander/sicp) is out, bringing the advantages of adjustable font size and reflowable text to mobile reading.
-
-Translation
------------
-
-There is a new [Japanese translation](https://github.com/minghai/sicp-pdf/) of the PDF by Narumi Katoh. Great to see new languages joining the collection!
+About My Fork
+============
+1. Updated fonts
+2. Simply build with latest upstream git source

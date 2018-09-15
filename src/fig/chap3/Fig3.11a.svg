@@ -533,7 +533,7 @@
          y="184.36218"
          dx="0 0 0 0 0 0 0 0 0 0 0 0 2.7"
          style="line-height:129.99999523%"><tspan
-   style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:129.99999523%;font-family:Linux Biolinum O;-inkscape-font-specification:Linux Biolinum O"
+   style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:129.99999523%;font-family:Libertinus Sans;-inkscape-font-specification:Libertinus Sans"
    id="tspan7412">parameters:</tspan> x</tspan><tspan
          sodipodi:role="line"
          x="65"
@@ -541,7 +541,7 @@
          id="tspan5914"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:129.99999523%;font-family:Inconsolata LGC;-inkscape-font-specification:Inconsolata LGC"
          dx="0 0 0 0 0 0 2.7"><tspan
-   style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:129.99999523%;font-family:Linux Biolinum O;-inkscape-font-specification:Linux Biolinum O"
+   style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:129.99999523%;font-family:Libertinus Sans;-inkscape-font-specification:Libertinus Sans"
    id="tspan7414">body:</tspan> (define good-enough? ...)</tspan><tspan
          sodipodi:role="line"
          x="65"
@@ -575,11 +575,11 @@
          id="tspan5479"
          x="65"
          y="80.081543"
-         style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:129.99999523%;font-family:Linux Biolinum O;-inkscape-font-specification:Linux Biolinum O">global</tspan><tspan
+         style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:129.99999523%;font-family:Libertinus Sans;-inkscape-font-specification:Libertinus Sans">global</tspan><tspan
          sodipodi:role="line"
          x="65"
          y="96.981544"
-         style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:129.99999523%;font-family:Linux Biolinum O;-inkscape-font-specification:Linux Biolinum O"
+         style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:129.99999523%;font-family:Libertinus Sans;-inkscape-font-specification:Libertinus Sans"
          id="tspan5507">env</tspan></text>
     <text
        xml:space="preserve"
@@ -666,7 +666,7 @@
          y="287.42416"
          dx="0 0 0 0 0 0 0 0 0 0 0 0 2.7"
          style="line-height:129.99999523%"><tspan
-   style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:129.99999523%;font-family:Linux Biolinum O;-inkscape-font-specification:Linux Biolinum O"
+   style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:129.99999523%;font-family:Libertinus Sans;-inkscape-font-specification:Libertinus Sans"
    id="tspan7808">parameters:</tspan> guess</tspan><tspan
          sodipodi:role="line"
          x="365.17014"
@@ -674,7 +674,7 @@
          id="tspan7804"
          dx="0 0 0 0 0 0 2.7"
          style="line-height:129.99999523%"><tspan
-   style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:129.99999523%;font-family:Linux Biolinum O;-inkscape-font-specification:Linux Biolinum O"
+   style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:129.99999523%;font-family:Libertinus Sans;-inkscape-font-specification:Libertinus Sans"
    id="tspan7810">body:</tspan> (&lt; (abs ...)</tspan><tspan
          sodipodi:role="line"
          x="365.17014"
@@ -713,7 +713,7 @@
          id="tspan7829"
          x="330"
          y="299.36218"><tspan
-   style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;text-anchor:end;font-family:Linux Biolinum O;-inkscape-font-specification:Linux Biolinum O"
+   style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;text-anchor:end;font-family:Libertinus Sans;-inkscape-font-specification:Libertinus Sans"
    id="tspan7831">call to</tspan> sqrt-iter</tspan></text>
     <g
        style="stroke-width:0.77952754;stroke-miterlimit:4;stroke-dasharray:none;display:inline"
@@ -748,7 +748,7 @@
          id="tspan7829-2"
          x="345"
          y="374.36218"><tspan
-   style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Linux Biolinum O;-inkscape-font-specification:Linux Biolinum O"
+   style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Libertinus Sans;-inkscape-font-specification:Libertinus Sans"
    id="tspan7831-2">call to</tspan> good-enough?</tspan></text>
     <g
        style="stroke-width:0.77952754;stroke-miterlimit:4;stroke-dasharray:none;display:inline"

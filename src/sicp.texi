@@ -4,8 +4,8 @@
 @settitle            Structure and Interpretation of Computer Programs, 2e
 @comment             Unofficial Texinfo Format
 @comment
-@set utfversion      2.andresraba5.6
-@set utfversiondate  February 2, 2016
+@set utfversion      2.cloudhan5.7
+@set utfversiondate  September 16, 2018
 @comment
 @comment             This file is licensed under a Creative Commons
 @comment             Attribution-ShareAlike 4.0 International License
@@ -80,6 +80,9 @@
 @comment   Improved microtypography in code listings. Removed manual
 @comment   word breaks. Fixed broken links.
 @comment
+@comment * Version 2.cloudhan5.7 by Cloud Han.
+@comment   Replaced deprecated fonts. Updated to latest version of git.
+@comment
 
 
 \frontmatter
@@ -134,7 +137,8 @@ Montreal, Toronto
 
 @sp 1.26
 @noindent
-Unofficial Texinfo Format @url{http://sicpebook.wordpress.com, @value{utfversion}} (@value{utfversiondate}),@*
+Unofficial Texinfo Format @url{https://github.com/cloudhan/sicp-pdf, @value{utfversion}} (@value{utfversiondate}),@*
+based on @url{http://sicpebook.wordpress.com, 2.andresraba5.6} (February 2, 2016),@*
 based on @url{http://www.neilvandyke.org/sicp-texi/, 2.neilvandyke4} (January 10, 2007).
 
 \end{center}
@@ -35756,7 +35760,7 @@ into sequences of C instructions.  Compile the metacircular evaluator of
 @unnumbered References
 @node    References, List of Exercises, Chapter 5, Top
 
-\fontspec[Numbers={OldStyle},StylisticSet=6]{Linux Libertine O}
+\fontspec[Numbers={OldStyle},StylisticSet=6]{Libertinus Serif}
 
 \phantomsection @anchor{Abelson et al. 1992}
 @b{Abelson}, Harold, Andrew Berlin, Jacob Katzenelson, William McAllister,
@@ -36323,7 +36327,7 @@ Ph.D. dissertation, Department of Electrical Engineering and Computer Science,
 @b{Zippel}, Richard.  1993.  @cite{Effective Polynomial Computation}.  Boston, @acronym{MA}:
 Kluwer Academic Publishers.
 
-\fontspec[Numbers={Lining}]{Linux Libertine O}
+\fontspec[Numbers={Lining}]{Libertinus Serif}
 
 @unnumbered List of Exercises
 @node    List of Exercises, List of Figures, References, Top
@@ -36367,7 +36371,7 @@ that it has been prepared with the help of a computer.
 
 \lettrine[lraise=-0.03,loversize=0.08]{O}{n the cover page} is Agostino Ramelli's bookwheel mechanism from 1588. It could be seen as an early hypertext navigation aid. This image of the engraving is hosted by J. E. Johnson of @url{http://newgottland.com/2012/02/09/before-the-ereader-there-was-the-wheelreader/ramelli_bookwheel_1032px/, New Gottland}.
 
-The typefaces are Linux Libertine for body text and Linux Biolinum for headings, both by Philipp H. Poll. Typewriter face is Inconsolata created by Raph Levien and supplemented by Dimosthenis Kaponis and Takashi Tanigawa in the form of Inconsolata @acronym{LGC}. The cover page typeface is Alegreya, designed by Juan Pablo del Peral.
+The typefaces are Libertinus Serif for body text and Libertinus Sans for headings, both by Philipp H. Poll. Typewriter face is Inconsolata created by Raph Levien and supplemented by Dimosthenis Kaponis and Takashi Tanigawa in the form of Inconsolata @acronym{LGC}. The cover page typeface is Alegreya, designed by Juan Pablo del Peral.
 
 Graphic design and typography are done by Andres Raba. Texinfo source is converted to LaTeX by a Perl script and compiled to @acronym{PDF} by XeLaTeX. Diagrams are drawn with Inkscape.
 
